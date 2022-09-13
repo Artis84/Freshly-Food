@@ -1,0 +1,57 @@
+.menus h1 i{
+    color: var(--Rouge);
+    transform: scale(0.5);
+    margin: 50px 0 30px 0;
+}
+
+.menus p{
+    margin: 10px;
+    text-align: center;
+}
+
+.menus .controls{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls button{
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--Marron-Clair);
+}
+
+.controls button:hover{
+    background-color: var(--Rouge);
+    color: white;
+}
+
+.container-img{
+    background-color: var(--Marron-Clair);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	gap: 3rem 1rem;
+	padding: 2rem;
+}
+
+figure{
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-color: rgba(76,67,67,.9); */
+    margin: 15px;
+    border: 3px solid white;
+    text-align: center;
+
+}
+
+figcaption .fork-icon{
+    transform: scale(0.6);
+}

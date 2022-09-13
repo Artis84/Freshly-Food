@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-menu.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Merienda&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="./img/logo.png" alt="logo du site" width="200px" height="200px" />
+                <strong>
+                    <i class="fa-solid fa-star"></i>
+                    Freshly Restaurant
+                    <i class="fa-solid fa-star"></i>
+                </strong>
+                <ul>
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="./menu.html" class="active"><li>Menus</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section class="menus">
+                    <h1>
+                        <i class="fa-solid fa-star"></i>
+                        Details of our menus
+                        <i class="fa-solid fa-star"></i>
+                    </h1>
+
+                    <p>Choose your main course according to your menu !</p>
+
+                    <div class="controls">
+                        <button type="button" data-filter=".all">ALL</button>
+                        <button type="button" data-filter=".meat">MEAT</button>
+                        <button type="button" data-filter=".vegan">VEGAN</button>
+                        <button type="button" data-filter=".fish">FISH</button>
+                    </div>
+
+                    <div class="container-img">
+                        <div class="mix all meat">
+                            <figure>
+                                <img src="./img/menus/meat-01.jpg" alt="Photo d'un plat à base viande" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    mussels
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all meat">
+                            <figure>
+                                <img src="./img/menus/meat-02.jpg" alt="Photo d'un plat à base viande" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Freshly kebabs
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all meat">
+                            <figure>
+                                <img src="./img/menus/meat-03.jpg" alt="Photo d'un plat à base viande" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Freshly burger
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all vegan">
+                            <figure>
+                                <img src="./img/menus/vegan-01.jpg" alt="Photo d'un plat vegan" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Mixed vegetables
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all vegan">
+                            <figure>
+                                <img src="./img/menus/vegan-02.jpg" alt="Photo d'un plat vegan" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Vegetable Jambalaya
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all vegan">
+                            <figure>
+                                <img src="./img/menus/vegan-03.jpg" alt="Photo d'un plat vegan" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Grilled eggplants
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all fish">
+                            <figure>
+                                <img src="./img/menus/fish-01.jpg" alt="Photo d'un plat à base de poisson" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Cajun shrimp
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all fish">
+                            <figure>
+                                <img src="./img/menus/fish-02.jpg" alt="Photo d'un plat à base de poisson" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Grilled salmon
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="mix all fish">
+                            <figure>
+                                <img src="./img/menus/fish-03.jpg" alt="Photo d'un plat à base de poisson" />
+                                <figcaption>
+                                    <img src="./img/fork-knife.svg" class="fork-icon" width="50px" height="50px" alt="Couverts" />
+                                    Beef stew with pasta
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <strong>Opening hours</strong>
+                    <div class="opening-hours">
+                        <p>Monday: Closes</p>
+                        <p>Tue-Wed : 9am - 10pm</p>
+                        <p>Thu-Fri : 9am - 10pm</p>
+                        <p>Sat-Sun : 5pm - 10pm</p>
+                    </div>
+                    <strong>Contact</strong>
+                    <address>
+                        <p>13 Christopher Street</p>
+                        <p>New York,</p>
+                        <p>NY 10014-3543</p>
+                        <p><a href="tel:+120008009999">+01 2000 800 9999</a></p>
+                    </address>
+                    <strong>Social networks</strong>
+                    <div class="social-networks">
+                        <a href=""><i class="fa-brands fa-facebook-f facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p pinterest"></i></a>
+                    </div>
+                </footer>
+            </div>
+        </main>
+        <script src="./mixitup.min.js"></script>
+        <script>
+            var containerEl = document.querySelector(".container-img");
+
+            var mixer = mixitup(containerEl);
+        </script>
+    </body>
+</html>
